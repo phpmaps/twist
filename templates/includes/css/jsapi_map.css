@@ -1,0 +1,50 @@
+@CHARSET "UTF-8";
+
+@media screen {
+	.post img, .type-page img {
+		padding: 0 !important;
+		border: 0 !important;
+		background: none !important;
+		max-width: none !important;
+		height: none !important;
+		display: block !important;
+	}
+	
+	input[type=text], input.input-text, textarea, input.txt, input[type=tel], input[type=email] {
+		padding: .236em .5em;
+		border: 1px solid #c4c0bf;
+		-webkit-border-radius: 0.125em;
+		border-radius: 0.125em;
+		-moz-background-clip: padding;
+		-webkit-background-clip: padding-box;
+		background-clip: padding-box;
+		font-size: 1em;
+		line-height: 1.618em;
+		font-family: inherit;
+		outline: none;
+		margin: 0 .327em;
+		background: #f7f7f7;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		-webkit-appearance: none;
+		-webkit-box-shadow: 0 0 0 0.327em rgba(0, 0, 0, 0.03), inset 0 1px 2px #d8d4d3, 0 1px #ffffff;
+		box-shadow: 0 0 0 0 !important;
+	}
+}
+
+
+#map {
+	height: 600px;
+	width: 600px;
+	margin: 0;
+	padding: 0;
+}
+
+#search {
+	display: block;
+	position: relative;
+	z-index: 2;
+	top: 40px;
+	left: 360px;
+}

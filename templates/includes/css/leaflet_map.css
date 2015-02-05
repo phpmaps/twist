@@ -1,0 +1,14 @@
+@CHARSET "UTF-8";
+
+@media screen {
+	.post img, .type-page img {
+		padding: 0 !important;
+		border: 0 !important;
+		background: none !important;
+		max-width: none !important;
+		height: none !important;
+		display: block !important;
+	}
+}
+
+#map {width:600px; height:600px;}
