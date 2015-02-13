@@ -26,13 +26,13 @@ class Maps extends Utilities
         /**
          * TODO: FIGURE OUT HOW TO HANDLE CSS LOADS - AS THESE DON'T PLAY NICE
          */
-        //wp_enqueue_style('leaflet-css', '//cdn.jsdelivr.net/leaflet/0.7.3/leaflet.css');
+        wp_enqueue_style('leaflet-css', '//cdn.jsdelivr.net/leaflet/0.7.3/leaflet.css');
 
-        //wp_enqueue_style('leaflet_map-css', PLUGIN_URL.'/templates/includes/css/leaflet_map.css');
+        wp_enqueue_style('leaflet_map-css', PLUGIN_URL.'/templates/includes/css/leaflet_map.css');
         
-        wp_enqueue_style('esri-css', 'http://js.arcgis.com/3.12/esri/css/esri.css');
+        //wp_enqueue_style('esri-css', 'http://js.arcgis.com/3.12/esri/css/esri.css');
         
-        wp_enqueue_style( 'map_basic-css', PLUGIN_URL.'/templates/includes/css/jsapi_map.css' );
+        //wp_enqueue_style( 'map_basic-css', PLUGIN_URL.'/templates/includes/css/jsapi_map.css' );
     
         
         
